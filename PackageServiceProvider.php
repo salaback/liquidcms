@@ -15,7 +15,7 @@ class PackageServiceProvider extends ServiceProvider
     public function boot()
     {
         if (! $this->app->routesAreCached()) {
-            require __DIR__ . '/routes.php';
+            require __DIR__ . '/src/Http/routes.php';
         }
 
         $this->publishes([
