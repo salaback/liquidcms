@@ -1,0 +1,13 @@
+{
+    "name": "salaback/liquidcms",
+    "description": "An inline focused CMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sean Alaback",
+            "email": "sean.alaback@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
